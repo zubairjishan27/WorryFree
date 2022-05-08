@@ -1,0 +1,817 @@
+/* Responsive css code starts from here */ 
+  /* 
+  Most of the Smartphones Mobile (Potrait)
+  */
+  @media (min-width: 320px) and (max-width: 480px){
+
+    /* CSS */
+
+.container{
+    width: 320px;
+}
+.col-4{
+    width: 100%;
+    float: left;
+}
+/* 320px to 480px css */
+.logo{
+    height: 50px;
+}
+.header .main-menu .navbar .nav-link {
+    text-align: left;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.header .main-menu .btn-success {
+    margin-right: 10px;
+}
+.header .main-menu .secnav .fa-search {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header .main-menu .secnav {
+    text-align: left; 
+}
+.header .main-menu .secnav .fa-cart-plus {
+    margin-right: 0px;
+}
+
+.banner .img-fluid{
+    width: 80%;
+}
+.banner .left-context h5 {
+    font-size: 15px;
+}
+.banner .left-context p {
+    font-size: 12px;
+}
+.banner .context {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+}
+.title h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.banner .context .button-group .btn-success {
+    padding: 3px 8px;
+    margin-right: 0px;
+}
+.banner .context .button-group .btn-default {
+    padding: 3px 8px;
+}
+.banner .context .button-group {
+    width: 100%;
+}
+.favourites{
+    padding: 40px 0px;
+}
+.favourites .title h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.favourites .title h6 {
+    font-size: 10px;
+}
+.favourites .fav-menu .inner-box{
+    margin-bottom: 20px;
+}
+.mealplans{
+    padding: 80px 0px 20px;
+}
+.mealplans .left-context .img-fluid {
+    height: auto;
+}
+.mealplans .right-context {
+    margin-left: 0px;
+}
+.mealplans .title h5{
+    font-size: 15px;
+}
+.mealplans .title p{
+    font-size: 9px;
+    line-height: 18px;
+}
+.mealplans .meals .img-fluid{
+    margin-bottom: 60px;
+}
+.mealplans .right-context .button-grp .first {
+    margin-right: 170px;
+    margin-bottom: 195px;
+    margin-top: 18px;
+}
+.recipes{
+    padding: 40px 0px 40px;
+}
+.recipes .title h5{
+    margin-bottom: 0px;
+}
+.recipes .recipe1 .img-fluid {
+    width: 100%;
+}
+.recipes .recipe1 .right {
+    margin-left: 0px;
+}
+.recipes .recipe2 .right {
+    margin-left: 0px;
+}
+.recipes .recipe2 .img-fluid {
+    width: 100%;
+}
+.recipes .img-fluid{
+    margin-bottom: 60px;
+}
+.recipes .left-context .first {
+    margin-right: 180px;
+    margin-bottom: 190px;
+    margin-top: 10px;
+}
+.process{
+    position: relative;
+    padding: 80px 0px 220px;
+}
+.process .system{
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.process .system .left {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.process .system .center {
+     margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.process .system .right {
+    margin-top: 0px; 
+    margin-right: 0px;
+    width: 100%;
+    margin-left: 0px;
+}
+.process .img-grp .first {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 40%;
+    margin-left: -20px;
+}
+.process .img-grp .two {
+    transform: rotate(90deg);
+    margin-left: -20px;
+    position: absolute;
+    top: 70%;
+}
+.meal-plans {
+    padding: 40px 0px 40px;
+}
+.meal-plans .left-context .title p {
+    margin-top: 0px;
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.meal-plans .left-context .button-group .btn-success {
+    margin-right: 0px;
+    padding: 3px 8px;
+}
+.meal-plans .left-context .button-group {
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.meal-plans .left-context .button-group .btn-default{
+    padding: 3px 8px;
+}
+.meal-plans .arrow-text {
+    position: absolute;
+    top: 85%;
+    left: 2%;
+}
+.meal-plans .arrow-text h6 {
+    color: #649483;
+}
+
+.meal-plans .arrow-text .arrow{
+    text-align: right;
+    background: #649483;
+}
+
+.foryou{
+    height: auto;
+    padding: 0px;
+}
+.foryou .title{
+    margin-top: 85px;
+}
+.foryou .title h1 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.foryou .title p {
+    font-size: 5px;
+    line-height: 8px;
+    margin-top: 10px;
+    margin-left: 15px;
+    word-spacing: 0px;
+}
+.foryou .title .btn-success{
+    margin-bottom: 20px;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+.sayings{
+    padding: 40px 0px;
+}
+.sayings .title h1 {
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+.sayin .img-fluid{
+    margin-bottom: 0px;
+}
+.comm .sayin p{
+    margin-bottom: 40px;
+}
+.footer{
+    padding: 60px 0px 20px;
+}
+.footer h3{
+    margin-top: 20px;
+}
+.footer .contactus .copyright{
+    width: 100%;
+}
+.footer .contactus .Socials{
+    width: 100%;
+}
+.footer .contactus p {
+    font-size: 9px;
+}
+.footer .contactus {
+    padding: 20px 0px 0px;
+}
+.footer .Socials {
+    text-align: center;
+    margin-top: 20px;
+}
+  }
+
+
+ /* 
+  Low Resoultion Tabltes,Mobile Smartphones (landscape)
+  */
+  @media (min-width: 481px) and (max-width: 767px){
+
+    /* CSS */
+.container{
+    width: 481px;
+}
+.header{
+    padding: 40px 0px;
+}
+.col-4{
+    width: 100%;
+    float: left;
+}
+/* 481px to 767px css */
+.logo{
+    margin-top: 10px;
+    height: 50px;
+}
+.header .main-menu .navbar .nav-link {
+    text-align: left;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.header .main-menu .btn-success {
+    margin-right: 10px;
+}
+.header .main-menu .secnav .fa-search {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header .main-menu .secnav {
+    text-align: left; 
+}
+.header .main-menu .secnav .fa-cart-plus {
+    margin-right: 0px;
+}
+
+.banner .img-fluid{
+    width: 100%;
+}
+.banner .left-context h5 {
+    font-size: 15px;
+}
+.banner .left-context p {
+    font-size: 12px;
+}
+.banner .context {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+}
+.title h1 {
+    font-size: 65px;
+    line-height: 75px;
+}
+.banner .context .button-group .btn-success {
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+.banner .context .button-group .btn-default {
+    padding: 3px 8px;
+}
+.banner .context .button-group {
+    width: 100%;
+}
+.favourites{
+    padding: 40px 0px;
+}
+.favourites .title h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.favourites .title h6 {
+    font-size: 10px;
+}
+.favourites .fav-menu .inner-box{
+    margin-bottom: 20px;
+}
+.mealplans{
+    padding: 80px 0px 20px;
+}
+.mealplans .left-context .img-fluid {
+    height: auto;
+}
+.mealplans .right-context {
+    margin-left: 0px;
+}
+.mealplans .title h5{
+    font-size: 15px;
+}
+.mealplans .title p{
+    font-size: 11px;
+    line-height: 18px;
+}
+.mealplans .meals .img-fluid{
+    margin-bottom: 60px;
+}
+.mealplans .right-context .button-grp .first {
+    margin-right: -110px;
+    margin-bottom: 475px;
+    margin-top: 18px;
+}
+.recipes{
+    padding: 40px 0px 40px;
+}
+.recipes .title h5{
+    margin-bottom: 0px;
+}
+.recipes .recipe1 .img-fluid {
+    width: 100%;
+}
+.recipes .recipe1 .right {
+    margin-left: 0px;
+}
+.recipes .recipe2 .right {
+    margin-left: 0px;
+}
+.recipes .recipe2 .img-fluid {
+    width: 100%;
+}
+.recipes .img-fluid{
+    margin-bottom: 60px;
+}
+.recipes .left-context .first {
+    margin-bottom: 740px;
+    margin-top: 100px;
+    margin-right: -110px;
+}
+.process{
+    position: relative;
+    padding: 80px 0px 220px;
+}
+.process .system{
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.process .system .left {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.process .system .center {
+     margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.process .system .right {
+    margin-top: 0px; 
+    margin-right: 0px;
+    width: 100%;
+    margin-left: 0px;
+}
+.process .img-grp .first {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 40%;
+    margin-left: -20px;
+}
+.process .img-grp .two {
+    transform: rotate(90deg);
+    margin-left: -20px;
+    position: absolute;
+    top: 70%;
+}
+.meal-plans {
+    padding: 40px 0px 40px;
+}
+.meal-plans .left-context .title p {
+    margin-top: 0px;
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.meal-plans .left-context .button-group .btn-success {
+    margin-right: 0px;
+}
+.meal-plans .left-context .button-group {
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.meal-plans .arrow-text {
+    position: absolute;
+    top: 85%;
+    left: 2%;
+}
+.meal-plans .arrow-text h6 {
+    color: #649483;
+}
+
+.meal-plans .arrow-text .arrow{
+    text-align: right;
+    background: #649483;
+}
+
+.foryou{
+    height: auto;
+    padding: 50px 0px;
+}
+.foryou .title{
+    margin-top: 85px;
+}
+.foryou .title h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.foryou .title p {
+    font-size: 7px;
+    line-height: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    word-spacing: 0px;
+}
+.foryou .title .btn-success{
+    margin-bottom: 20px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+.sayings{
+    padding: 40px 0px;
+}
+.sayings .title h1 {
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+.sayin .img-fluid{
+    margin-bottom: 0px;
+}
+.comm .sayin p{
+    margin-bottom: 40px;
+}
+.footer{
+    padding: 60px 0px 20px;
+}
+.footer h3{
+    margin-top: 20px;
+}
+.footer .contactus .copyright{
+    width: 100%;
+}
+.footer .contactus .Socials{
+    width: 100%;
+}
+.footer .contactus p {
+    font-size: 9px;
+}
+.footer .contactus {
+    padding: 20px 0px 0px;
+}
+.footer .Socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+  }
+
+  /* 
+   Most of the Ipad,mini notebook,Tablet
+  */
+  @media (min-width: 768px) and (max-width: 991px){
+
+    /* CSS */
+    .container{
+        width: 768px;
+    }
+  /* 768px to 991px css */  
+  .logo{
+    margin-top: 10px;
+    height: 50px;
+}
+.header .main-menu .navbar .nav-link {
+    text-align: left;
+    display: block;
+    margin-bottom: 0px;
+}
+.header .main-menu .btn-success {
+    margin-right: 10px;
+}
+.header .main-menu .secnav .fa-search {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header .main-menu .secnav {
+    text-align: left; 
+}
+.header .main-menu .secnav .fa-cart-plus {
+    margin-right: 0px;
+}
+.banner .img-fluid{
+    width: 80%;
+}
+.banner .left-context{
+    margin-right: 150px;
+    width: 50%;
+}
+.banner .left-context h5 {
+    font-size: 15px;
+}
+.banner .left-context p {
+    font-size: 12px;
+}
+.banner .context {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+}
+.title h1 {
+    font-size: 65px;
+    line-height: 75px;
+}
+.banner .context .button-group .btn-success {
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+.banner .context .button-group .btn-default {
+    padding: 3px 8px;
+}
+.banner .context .button-group {
+    width: 100%;
+}
+.favourites{
+    padding: 40px 0px;
+}
+.favourites .title h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.favourites .title h6 {
+    font-size: 10px;
+}
+.favourites .fav-menu .inner-box{
+    margin-bottom: 20px;
+}
+.mealplans{
+    padding: 80px 0px 20px;
+}
+.mealplans .left-context .img-fluid {
+    height: auto;
+}
+.mealplans .right-context {
+    margin-left: 0px;
+}
+.mealplans .title h5{
+    font-size: 15px;
+}
+.mealplans .title p{
+    font-size: 11px;
+    line-height: 18px;
+}
+.mealplans .meals .img-fluid{
+    margin-bottom: 60px;
+}
+.mealplans .right-context .button-grp .first {
+    margin-right: 250px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+}
+.recipes{
+    padding: 40px 0px 40px;
+}
+.recipes .title h5{
+    margin-bottom: 0px;
+}
+.recipes .recipe1 .img-fluid {
+    width: 100%;
+}
+.recipes .recipe1 .right {
+    margin-left: 0px;
+}
+.recipes .recipe2 .right {
+    margin-left: 0px;
+}
+.recipes .recipe2 .img-fluid {
+    width: 100%;
+}
+.recipes .img-fluid{
+    margin-bottom: 60px;
+}
+.recipes .left-context .first {
+    margin-bottom: 0px;
+    margin-right: 250px; 
+    margin-top: 30px;
+}
+.process{
+    position: relative;
+    padding: 80px 0px 220px;
+}
+.process .system{
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.process .system .left {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.process .system .center {
+     margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.process .system .right {
+    margin-top: 0px; 
+    margin-right: 0px;
+    width: 100%;
+    margin-left: 0px;
+}
+.process .img-grp .first {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 40%;
+    margin-left: -20px;
+}
+.process .img-grp .two {
+    transform: rotate(90deg);
+    margin-left: -20px;
+    position: absolute;
+    top: 70%;
+}
+.meal-plans {
+    padding: 40px 0px 40px;
+}
+.meal-plans .left-context .title p {
+    margin-top: 0px;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.meal-plans .left-context .button-group .btn-success {
+    margin-right: 0px;
+}
+.meal-plans .left-context .button-group {
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.meal-plans .arrow-text {
+    position: absolute;
+    top: 85%;
+    left: 2%;
+}
+.meal-plans .arrow-text h6 {
+    color: #649483;
+}
+.meal-plans .arrow-text .arrow{
+    text-align: right;
+    background: #649483;
+}
+.foryou{
+    height: auto;
+    padding: 130px 0px;
+}
+.foryou .title{
+    margin-top: 85px;
+}
+.foryou .title h1 {
+    font-size: 50px;
+    line-height: 55px;
+    margin-left: 10px;
+}
+.foryou .title p {
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    word-spacing: 0px;
+}
+.foryou .title .btn-success{
+    margin-bottom: 20px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+.sayings{
+    padding: 40px 0px;
+}
+.sayings .title h1 {
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+.sayin .img-fluid{
+    margin-bottom: 0px;
+}
+.comm .sayin p{
+    margin-bottom: 40px;
+}
+.footer{
+    padding: 60px 0px 20px;
+}
+.footer h3{
+    margin-top: 20px;
+}
+.footer .contactus .copyright{
+    width: 100%;
+}
+.footer .contactus .Socials{
+    width: 100%;
+}
+.footer .contactus p {
+    font-size: 12px;
+}
+.footer .contactus {
+    padding: 20px 0px 0px;
+}
+.footer .Socials {
+    text-align: center;
+    margin-top: 20px;
+}
+  }
+/* 
+   Most of the Ipad,Tablet (Landscape)
+ */
+ @media (min-width: 992px) and (max-width: 1024px){
+
+    /* CSS */
+    .container{
+        width: 992px;
+    } 
+/* 993px to 1024px css */
+.banner .context{
+    margin-left: 0px;
+}
+.banner .title h1 {
+    font-size: 65px;
+    line-height: 75px;
+}
+.mealplans .right-context .button-grp {
+    top: 110px;
+    position: absolute;
+}
+.mealplans .right-context .button-grp .first {
+    margin-right: 130px;
+}
+.recipes .recipe1 .button-grp1 {
+    position: absolute;
+    top: 125px;
+}
+.recipes .left-context .first {
+    margin-right: 150px;
+}
+.recipes .recipe2 .button-grp2 {
+    position: absolute;
+    top: 125px;
+}
+ }

@@ -1,0 +1,623 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/*************************
+***Worry Free Code Start
+**************************/
+.header{
+    width: 100%;
+    background: url("../images/Group\ 1.png") center top no-repeat;
+    background-size: cover;
+}
+.main-menu{
+    width: 100%;
+    padding: 0px 0px;
+}
+.main-menu .bg-light{
+    background: #ffece1 !important;
+}
+.header .main-menu .navbar .nav-link{
+    text-align: right;
+    display: inline;
+    margin-right: 10px;
+    color: #649483;
+}
+.navbar-light .main-nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-weight: 600;
+    border-bottom: 2px double #649483;
+}
+.header .main-menu .navbar .nav-link:hover, .header .main-menu .navbar .nav-link:focus{
+    border-bottom: 2px double #649483;
+}
+.header .main-menu .secnav{
+    text-align: right;
+}
+.header .main-menu .secnav ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+.header .main-menu .secnav ul li{
+    display: inline-block;
+}
+.header .main-menu .secnav ul li i{
+    font-size: 20px;
+}
+.header .main-menu .btn-success{
+    background: #649483;
+    color: #ffece1;
+    border-radius: 0.6rem;
+    padding: 3px 15px;
+    font-size: 14px;
+    margin-right: -120px;
+    border: 2px solid #649483;
+    transition: 1s ease-in;
+}
+.header .main-menu .btn-success:hover , .header .main-menu .btn-success:focus{
+   background: transparent;
+   color: #649483;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.header .main-menu .fa{
+    color: #649483;
+}
+.header .main-menu .secnav .fa-search{
+   margin-right: -150px;
+}
+.header .main-menu .secnav .fa-cart-plus{
+    margin-right: -180px;
+}
+.header .main-menu .fa:hover, .header .main-menu .fa:focus{
+    color: #dd7017;
+}
+.header .banner{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Group\ 1.png) center top no-repeat;
+    background-size: cover;
+}
+.banner .left-context{
+    width: 100%;
+    text-align: center;
+    color: #649483;
+}
+.banner .left-context h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner .left-context p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.banner .context{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 45%;
+}
+.banner .context .title{
+    color: #dd7017;
+}
+.banner .context .button-group{
+    padding: 10px 0px;
+}
+.banner .context .button-group .btn-success{
+    border-radius: 0.6rem;
+    color: #ffece1;
+    background: #649483;
+    padding: 5px 15px;
+    margin-right: 10px;
+    transition: 1s ease-out;
+    border: 2px solid #649483;
+}
+.banner .context .button-group .btn-default{
+    color: #649483;
+    border-radius: 0.6rem;
+    background: transparent;
+    padding: 5px 10px;
+    border: 2px solid #649483;
+    transition: 1s ease-out;
+}
+.banner .context .button-group .btn-success:hover , .banner .context .button-group .btn-success:focus{
+    background: transparent;
+    color: #649483;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.banner .context .button-group .btn-default:hover , .banner .context .button-group .btn-default:focus{
+    background: #649483;
+    color: #ffece1;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+/***********************
+** Global css for title
+************************/
+.title h1{
+    font-size: 82px;
+    line-height: 92px;
+}
+.favourites{
+    width: 100%;
+    padding: 80px 0px;
+    background: #649483;
+}
+.favourites .title{
+    width: 100%;
+    padding: 10px 0px 40px;
+}
+.favourites .title h1{
+    color: #ffece1;
+}
+.favourites .title h6{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #ffece1;
+    text-transform: uppercase;
+}
+.favourites .fav-menu .inner-box{
+    text-align: center;
+    background-color: #ffece1;
+    padding: 40px 0px;
+    border-radius: 1.5rem;
+}
+.favourites .fav-menu .two{
+    text-align: center;
+    background-color: #ffece1;
+    padding: 43px 0px;
+    border-radius: 1.5rem;
+}
+.fav-menu .inner-box .menu-title h6{
+    font-size: 14px;
+    color: #649483;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.fav-menu .inner-box p{
+    margin-top: -35px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #649483;
+}
+.mealplans{
+    width: 100%;
+    padding: 90px 0px;
+    background: url(../images/Group\ 3.png) center top no-repeat;
+    background-size: cover;
+}
+.mealplans .left-context .img-fluid{
+    height: 580px; 
+}
+.mealplans .title{
+    width: 100%;
+}
+.mealplans .title h5{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #649483;
+}
+.mealplans .title h1{
+    color: #dd7017;
+    margin-bottom: 20px;
+}
+.mealplans .title p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #649483;
+    margin-bottom: 40px;
+}
+.mealplans .right-context{
+    margin-top: 60px;
+    margin-left: -30px;
+    
+}
+.mealplans .right-context .meals{
+    position: relative;
+}
+.mealplans .right-context .button-grp{
+    top: 130px;
+    position: absolute;
+}
+.mealplans .right-context .button-grp .btn-success{
+    background: #649483;
+    border-radius: 0.6rem;
+    font-size: 14px;
+    color: #ffece1;
+    text-transform: uppercase;
+    border: 1px solid #649483;
+    transition: 1s ease-out;
+}
+.mealplans .right-context .button-grp .btn-success:hover , .mealplans .right-context .button-grp .btn-success:focus{
+    background: #ffece1;
+    color: #649483;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.mealplans .right-context .button-grp .first{
+    margin-right: 170px;
+}
+.recipes{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Group\ 4.png) center top no-repeat;
+    background-size: cover;
+}
+.recipes .left-context{
+    margin-top: 40px;
+}
+.recipes .title h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #649483;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.recipes .title h1{
+    color: #dd7017;
+    margin-bottom: 30px;
+}
+.recipes .recipe1{
+    position: relative;
+    margin-bottom: 40px;
+}
+.recipes .recipe1 .button-grp1{
+    position: absolute;
+    top: 145px;
+}
+.recipes .recipe2{
+    position: relative;
+    margin-bottom: 40px;
+}
+.recipes .recipe2 .button-grp2{
+    position: absolute;
+    top: 145px;
+}
+.recipes .left-context .btn-success{
+    padding: 7px 15px;
+    word-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    color: #ffece1;
+    background: #649483;
+    text-transform: uppercase;
+    transition: 1s ease-out;
+    border: 1px solid #649483;
+}
+.recipes .left-context .btn-success:hover , .recipes .left-context .btn-success:focus{
+    background: #ffece1;
+    color: #649483;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.recipes .left-context .first{
+    margin-right: 200px;
+}
+.recipes .recipe1 .img-fluid{
+    width: 94%;
+}
+.recipes .recipe1 .right{
+    margin-left: -20px;
+}
+.recipes .recipe2 .img-fluid{
+    width: 94%;
+}
+.recipes .recipe2 .right{
+    margin-left: -20px;
+}
+.process{
+    width: 100%;
+    padding: 80px 0px 240px;
+    background: #649483;
+}
+.process .title{
+    width: 100%;
+    color: #ffece1;
+}
+.process .title h6{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #ffece1;
+    text-transform: uppercase;
+}
+.process .system{
+    width: 100%;
+    padding: 40px 0px;
+    position: relative;
+}
+.process .system .left{
+    margin-left: -80px;
+    margin-right: 80px;
+}
+.process .system .center{
+    margin-right: 80px ;
+}
+.process .system .right{
+    margin-top: 2px;
+    margin-right: -120px;
+}
+.process .system .system-box{
+    border-radius: 0.9rem;
+    background: #ffece1;
+    padding: 30px 0px;
+    border: 1px solid #ffece1;
+    text-align: center;
+}
+.process .system .three{
+    padding: 45px 0px;
+}
+.process .system .three h3{
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+.process .system .three .three3{
+    font-size: 14px;
+    line-height: 20px;
+    color: #dd7017;
+    margin-bottom: -25px;
+}
+.process .system .system-box .sys-title h3{
+    font-size: 24px;
+    color: #dd7017;
+    font-weight: 600;
+}
+.process .system .system-box .img-fluid{
+    padding: 50px 0px;
+}
+.process .system .system-box p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #dd7017;
+    margin-bottom: -10px;
+}
+.process .img-grp{
+    width: 100%;
+    text-align: center;
+    margin-top: -220px;
+}
+.process .img-grp .first{
+    margin-left: 170px;
+}
+.process .img-grp .two{
+    margin-left: -170px;
+}
+.meal-plans{
+    width: 100%;
+    padding: 160px 0px;
+    background: url(../images/Grp-6.png) center top no-repeat;
+    background-size: cover;
+    background-color: #ffece1;
+    position: relative;
+}
+.meal-plans .left-context .title h1{
+    color: #dd7017;
+}
+.meal-plans .left-context .title p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #649483;
+}
+.meal-plans .left-context .button-group{
+    padding: 10px 0px;
+}
+.meal-plans .left-context .button-group .btn-success{
+    border-radius: 0.6rem;
+    color: #ffece1;
+    background: #649483;
+    padding: 4px 15px;
+    margin-right: 10px;
+    transition: 1s ease-in-out;
+    border: 2px solid #649483;
+}
+.meal-plans .left-context .button-group .btn-success:hover , .meal-plans .left-context .button-group .btn-success:focus{
+    background: transparent;
+    color: #649483;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.meal-plans .left-context .button-group .btn-default{
+    color: #649483;
+    border-radius: 0.6rem;
+    background: transparent;
+    padding: 4px 10px;
+    transition: 1s ease-in-out;
+    border: 2px solid #649483;
+}
+.meal-plans .left-context .button-group .btn-default:hover , .meal-plans .left-context .button-group .btn-default:focus{
+    background: #649483;
+    color: #ffece1;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.meal-plans .arrow-text{
+    text-align: right;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.meal-plans .arrow-text h6{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffece1;
+    text-transform: uppercase;
+}
+.sayings{
+    width: 100%;
+    padding: 80px 0px;
+    background: #649483;
+}
+.sayings .title h1{
+    color: #ffece1;
+    margin-bottom: 80px;
+}
+.sayings .comm{
+    width: 100%;
+    text-align: center;
+}
+.sayin .img-fluid{
+    width: 100px;
+    height: 100px;
+}
+.sayings .comm .sayin h6{
+    font-weight: 500;
+    word-spacing: 1px;
+    font-size: 13px;
+    color:#ffece1;
+    text-transform: uppercase;
+    margin: 20px 0px 10px;
+}
+.comm .sayin p{
+    font-weight: 400;
+    word-spacing: 1px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffece1;
+}
+.foryou{
+    width: 100%;
+    padding: 480px 0px;
+    background: url(../images/bgiii.png) center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffece1;
+}
+.foryou .title{
+    width: 100%;
+    margin-top: -135px;
+}
+.foryou .title h1{
+    margin-top: 15px;
+    color: #dd7017;
+}
+.foryou .title p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #649483;
+    word-spacing: 2px;
+    margin-top: 10px;
+}
+.foryou .title .btn-success{
+    margin-top: 5px;
+    background: #649483;
+    text-transform: uppercase;
+    color: #ffece1;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: 2px solid #649483;
+    transition: 1s ease-out;
+}
+.foryou .title .btn-success:hover, .foryou .title .btn-success:focus{
+    background: transparent;
+    color: #649483;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.footer{
+    width: 100%;
+    padding: 120px 0px 60px;
+    background: #649483;
+    color: #ffece1;
+}
+.footer h3{
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer ul li{
+    list-style: none;
+    margin-left: -30px;
+    margin-bottom: 5px;
+}
+.footer ul li a{
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffece1;
+}
+.footer ul li .email{
+    margin-top: 5px;
+    padding: 2px 20px;
+    border-radius: 0.6rem;
+    background: transparent;
+    border: 2px solid #ffece1;
+}
+.footer .email::-webkit-input-placeholder{
+    font-weight: 300;
+    font-size: 13px;
+    color: #ffece1;
+}
+.footer ul li .btn-default{
+    margin-top: 10px;
+    padding: 5px 14px;
+    border-radius: 0.6rem;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #ffece1;
+    color: #649483;
+    border: 2px solid #ffece1;
+}
+.footer ul li .btn-default:hover , .footer ul li .btn-default:focus{
+    background: transparent;
+    color: #ffece1;
+}
+.footer .contactus{
+    padding: 80px 0px 0px;
+}
+.footer .contactus p{
+    font-size: 13px;
+}
+.footer .Socials{
+    text-align: right;
+}
+.footer .Socials ul{
+    display: inline-block;
+    padding: 0px;
+}
+.footer .Socials ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+}
+.footer .Socials ul li i{
+    margin-left: 40px;
+    font-size: 24px;
+}
+.footer .Socials ul li a:hover{
+    color: #e28132;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
